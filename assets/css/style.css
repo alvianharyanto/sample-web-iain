@@ -196,6 +196,13 @@ time {
   margin-left: -10rem;
 }
 
+@media (max-width: 768px) {
+  #header .logotext img {
+    max-height: 35px;
+    margin-left: -5rem;
+  }
+}
+
 .scrolled-offset {
   margin-top: 70px;
 }
@@ -1004,7 +1011,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  padding: 40px 0 20px;
+  padding: 40px 20px 20px 0;
   text-align: center;
 }
 .clients img {
