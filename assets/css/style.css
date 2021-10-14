@@ -465,7 +465,7 @@ time {
 }
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: 80vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -482,7 +482,7 @@ time {
 }
 @media (max-height: 500px) {
   #hero {
-    height: 120vh;
+    height: 80vh;
   }
 }
 
