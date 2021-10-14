@@ -31,12 +31,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: BizLand - v3.6.0
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -99,7 +93,7 @@
               <li><a href="#">Direktori</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#team">Unduh</a></li>
+          <li><a class="nav-link scrollto" href="#">Unduh</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -117,7 +111,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Pengumuman</a></li>
+          <li><a class="nav-link scrollto" href="#">Pengumuman</a></li>
           <li class="dropdown"><a href="#"><span>Akses Cepat</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Press IAIN Kerinci</a></li>
@@ -133,11 +127,46 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <img src="assets/img/logo.png" alt="">
+  <section id="hero">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item dark active">
+          <img
+            src="http://iainkerinci.ac.id/sites/iainkerinci.ac.id/files/styles/1340/public/KIP_IAIN_Kerinci_2021.jpg?itok=TvyCXlRp"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item dark ">
+          <img
+            src="http://iainkerinci.ac.id/sites/iainkerinci.ac.id/files/styles/1340/public/pelantikan_rektor.jpg?itok=P4wOAfJn"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item dark ">
+          <img
+            src="http://iainkerinci.ac.id/sites/iainkerinci.ac.id/files/styles/1340/public/Hari%20Santri.png?itok=qG94bPnG"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
 
   <main id="main">
 
@@ -151,7 +180,8 @@
         </div>
         <div class="container py-2">
           <article class="postcard light green">
-            <a class="postcard__img_link" href="#">
+            <a class="postcard__img_link"
+              href="http://iainkerinci.ac.id/id/read/berita/511/vaksinasi-tahap-ii-dilaksanakan-iain-kerinci-gandeng-akabri-1999-dan-polres-kerinci">
               <img src="assets/img/portfolio/berita1.jpg" class="img-fluid postcard__img" alt="">
             </a>
             <div class="postcard__text">
@@ -178,44 +208,56 @@
           <div class="row">
             <!-- the cols in this div change the number of cards per row depending on screen size and the mb-4 adds space below cards if they spill over into the next row-->
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-              <div class="card">
-                <img src="assets/img/portfolio/berita2.jpg" class="img-fluid card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Momentum MTQ Jadi Ajang Nostalgia dan Silaturahmi Rektor</h3>
-                  <div class="postcard__subtitle small">
-                    <time datetime="2020-05-25 12:00:00">
-                      <i class="bx bx-calendar-alt"></i> 11/10/2021
-                    </time>
+              <a
+                href="http://iainkerinci.ac.id/id/read/berita/510/momentum-mtq-jadi-ajang-nostalgia-dan-silaturahmi-rektor">
+                <div class="card">
+                  <img src="assets/img/portfolio/berita2.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                  <div class="card-body">
+                    <h3 class="card-title">Momentum MTQ Jadi Ajang Nostalgia dan Silaturahmi Rektor</h3>
+                    <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="bx bx-calendar-alt"></i> 11/10/2021
+                      </time>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-              <div class="card">
-                <img src="assets/img/portfolio/berita3.jpg" class="img-fluid card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Rektor: Sinergitas Jadi Kunci Optimalisasi Bibit Unggul Siap Tanding</h3>
-                  <div class="postcard__subtitle small">
-                    <time datetime="2020-05-25 12:00:00">
-                      <i class="bx bx-calendar-alt"></i> 11/10/2021
-                    </time>
+              <a
+                href="http://iainkerinci.ac.id/id/read/berita/509/rektor-sinergitas-jadi-kunci-optimalisasi-bibit-unggul-siap-tanding">
+                <div class="card">
+                  <img src="assets/img/portfolio/berita3.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                  <div class="card-body">
+                    <h3 class="card-title">Rektor: Sinergitas Jadi Kunci Optimalisasi Bibit Unggul Siap Tanding</h3>
+                    <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="bx bx-calendar-alt"></i> 11/10/2021
+                      </time>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4 mb-4">
-              <div class="card">
-                <img src="assets/img/portfolio/berita4.jpg" class="img-fluid card-img-top" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Hadiri Undangan MTQ ke-50, Rektor Optimis IAIN Kerinci Atasi Hambatan Kedepan
-                  </h3>
-                  <div class="postcard__subtitle small">
-                    <time datetime="2020-05-25 12:00:00">
-                      <i class="bx bx-calendar-alt"></i> 11/10/2021
-                    </time>
+              <a
+                href="http://iainkerinci.ac.id/id/read/berita/508/hadiri-undangan-mtq-ke-50-rektor-optimis-iain-kerinci-atasi-hambatan-kedepan">
+                <div class="card">
+                  <img src="assets/img/portfolio/berita4.jpg" class="img-fluid card-img-top" alt="Card image cap">
+                  <div class="card-body">
+                    <h3 class="card-title">Hadiri Undangan MTQ ke-50, Rektor Optimis IAIN Kerinci Atasi Hambatan Kedepan
+                    </h3>
+                    <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                        <i class="bx bx-calendar-alt"></i> 11/10/2021
+                      </time>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
+            </div>
+            <div class="section_next_button">
+              <button type="button" class="btn btn-outline-primary btn-next">Selengkapnya</button>
             </div>
           </div>
         </div>
@@ -233,31 +275,33 @@
             <h2>Aplikasi Kampus </h2>
           </div>
           <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <a href="#"><img src="assets/img/links/icon_simak.png" class="img-fluid" alt=""></a>
+            <a href="http://simak.iainkerinci.ac.id/"><img src="assets/img/links/icon_simak.png" class="img-fluid"
+                alt=""></a>
           </div>
 
           <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <a href="#"><img src="assets/img/links/ejournal.png" class="img-fluid" alt=""></a>
+            <a href="http://ejournal.iainkerinci.ac.id/"><img src="assets/img/links/ejournal.png" class="img-fluid"
+                alt=""></a>
           </div>
 
           <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <a href="#"><img src="assets/img/links/email.jpg" class="img-fluid" alt=""></a>
+            <a href="http://iainkerinci.ac.id:2095/"><img src="assets/img/links/email.jpg" class="img-fluid" alt=""></a>
           </div>
 
           <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <a href="#"><img src="assets/img/links/icon_repository.jpg" class="img-fluid" alt=""></a>
+            <a href="http://repository.iainkerinci.ac.id/"><img src="assets/img/links/icon_repository.jpg"
+                class="img-fluid" alt=""></a>
           </div>
 
           <div class="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <a href="#"><img src="assets/img/links/icon_press.jpg" class="img-fluid" alt=""></a>
+            <a href="http://press.iainkerinci.ac.id/"><img src="assets/img/links/icon_press.jpg" class="img-fluid"
+                alt=""></a>
           </div>
 
         </div>
 
       </div>
     </section><!-- End Clients Section -->
-
-
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -299,12 +343,53 @@
           </div>
           <div class="swiper-pagination"></div>
         </div>
-
+        <div class="section_next_button">
+          <a href="http://iainkerinci.ac.id/id/pengumuman">
+            <button type="button" class="btn btn-outline-primary btn-next">Selengkapnya</button></a>
+        </div>
       </div>
     </section><!-- End Testimonials Section -->
 
+
+    <!-- video section -->
+    <section id="video" class="video  section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Video</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <iframe src="https://www.youtube.com/embed/GqtPZF2Jc1g" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <iframe src="https://www.youtube.com/embed/qfr_dMJqsX4" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <iframe src="https://www.youtube.com/embed/MJGkx9tFgew" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="section_next_button">
+          <a href="https://www.youtube.com/channel/UC3twFjB7DJ1Joq_rpGnuQsw">
+            <button type="button" class="btn btn-outline-primary btn-next">Selengkapnya</button></a>
+        </div>
+      </div>
+    </section><!-- End video section -->
+
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -400,9 +485,13 @@
           </div>
 
         </div>
-
+        <div class="section_next_button">
+          <a href="http://iainkerinci.ac.id/id/foto">
+            <button type="button" class="btn btn-outline-primary btn-next">Selengkapnya</button></a>
+        </div>
       </div>
     </section><!-- End Portfolio Section -->
+
 
   </main><!-- End #main -->
 
@@ -417,7 +506,7 @@
             <p>
               Komplek Kampus IAIN Kerinci, <br>
               Jl. Kapten Muradi, <br>Kecamatan Sungai Liuk,<br> Kota Sungai Penuh,<br>
-              Propinsi Jambi<br><br>
+              Provinsi Jambi<br><br>
               <strong>Pos :</strong> 37112<br>
               <strong>Telpon :</strong> (0748) 21065<br>
             </p>
@@ -483,6 +572,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/j-query.min.js"></script>
 
 </body>
 
