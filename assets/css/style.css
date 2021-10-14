@@ -198,8 +198,7 @@ time {
 
 @media (max-width: 768px) {
   #header .logotext img {
-    max-height: 35px;
-    margin-left: -5rem;
+    margin-left: 0;
   }
 }
 
