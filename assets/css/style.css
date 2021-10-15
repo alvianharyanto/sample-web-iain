@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #145813;
+  color: #35ae2a;
   text-decoration: none;
 }
 
@@ -98,7 +98,7 @@ time {
   line-height: 0;
 }
 .back-to-top:hover {
-  background:#145813;
+  background:#35ae2a;
   color: #fff;
 }
 .back-to-top.active {
@@ -118,7 +118,7 @@ time {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #040A03;
+  background: #089105;
   height: 40px;
   font-size: 12px;
   transition: all 0.5s;
@@ -167,7 +167,7 @@ time {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #D1FDCB;
+  background: #67ff58;
   transition: all 0.5s;
   z-index: 997;
   height: 75px;
@@ -424,17 +424,17 @@ time {
   height: 100%;
   position: relative;
   padding:0;
-  margin-top: .6rem;
+  margin-top: 10px;
 }
-.dark:before {
+/* .dark:before {
   content: "";
-  background: rgba(2, 2, 2, 0.158);
+  background: rgba(1, 126, 7, 0.068);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 #hero .container {
   position: relative;
   text-align: center;
@@ -478,7 +478,9 @@ time {
     font-size: 13px;
   }
 }
-
+.carousel-indicators [data-bs-target] {
+  background-color:#089105;
+}
 
 /* card */
 
@@ -588,7 +590,7 @@ a:hover {
 }
 .postcard .postcard__tagbox .tag__item {
   display: inline-block;
-  background: #145813;
+  background: #35ae2a;
   padding: .5em 1em;
   margin: 0 5px 5px 0;
   cursor: default;
@@ -755,7 +757,7 @@ section {
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #e7f1fd;
+  background: rgba(9, 146, 20, 0.089);
   color: #064D04;
   display: inline-block;
   text-transform: uppercase;
@@ -976,7 +978,7 @@ section {
   transition: ease-in-out 0.3s;
 }
 .services .icon-box .icon i {
-  color: #145813;
+  color: #35ae2a;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
@@ -1287,7 +1289,7 @@ section {
   color: #fff;
 }
 .team .member .social a:hover {
-  background: #145813;
+  background: #35ae2a;
 }
 .team .member .social i {
   font-size: 18px;
@@ -1322,15 +1324,13 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
   padding: 0 0 30px 0;
   color: #4a4a4a;
   font-size: 14px;
-  background: #f1f6fe;
+  background:rgba(9, 146, 20, 0.089);
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1389,12 +1389,12 @@ section {
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #145813;
+  color: #35ae2a;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #089105;
+  background: #35ae2a;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1454,9 +1454,9 @@ section {
 }
 
 .btn-next{
-  color: #145813;
+  color: #064D04;
   background:transparent;
-  border: 1px solid #145813;
+  border: 1px solid #064D04;
 }
 
 .btn-next:hover {
